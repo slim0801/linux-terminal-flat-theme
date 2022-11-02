@@ -1,0 +1,26 @@
+{
+  "name": "linux-terminal-flat",
+  "displayName": "linux-terminal-flat",
+  "description": "Easy on the eyes light and dark themes.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Linux Terminal Flat Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "Linux Terminal Flat Light",
+        "uiTheme": "vs-dark",
+        "path": "./themes/light.json"
+      }
+    ]
+  }
+}
