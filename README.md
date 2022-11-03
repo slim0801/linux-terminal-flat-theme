@@ -3,5 +3,5 @@
   <br/>
 </p>
 <div align="center">
-  <img alt="theme logo" src="https://github.com/hiukky/flate/raw/next/packages/code/assets/banner.png"/>
+  <img alt="theme logo" src="https://raw.githubusercontent.com/slim0801/linux-terminal-flat-theme/main/assets/banner.png"/>
 </div>
