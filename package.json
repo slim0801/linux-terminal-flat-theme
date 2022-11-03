@@ -18,7 +18,7 @@
       },
       {
         "label": "Linux Terminal Flat Light",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/light.json"
       }
     ]
