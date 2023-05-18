@@ -1,26 +1,65 @@
 {
-  "name": "linux-terminal-flat",
-  "displayName": "linux-terminal-flat",
-  "description": "Easy on the eyes light and dark themes.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.72.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Linux Terminal Flat Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark.json"
-      },
-      {
-        "label": "Linux Terminal Flat Light",
-        "uiTheme": "vs",
-        "path": "./themes/light.json"
-      }
-    ]
-  }
+    "name": "linux-terminal-flat",
+    "displayName": "Linux Terminal Flat Theme",
+    "description": "Easy on the eyes light and dark themes.",
+    "version": "0.1.0",
+    "publisher": "CimpeanAndrei",
+    "icon": "assets/logo.png",
+    "engines": {
+        "vscode": "^1.72.0"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/slim0801/linux-terminal-flat-theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/slim0801/linux-terminal-flat-theme"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "vscode",
+        "theme",
+        "dark",
+        "light",
+        "linux",
+        "terminal",
+        "capo",
+        "flat",
+        "relaxing"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Linux Terminal Flat Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.json"
+            },
+            {
+                "label": "Linux Terminal Flat Dark Twilight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-twilight.json"
+            },
+            {
+                "label": "Linux Terminal Flat Dark Espresso",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-espresso.json"
+            },
+            {
+                "label": "Linux Terminal Flat Dark Late",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-late.json"
+            },
+            {
+                "label": "Linux Terminal Flat Light",
+                "uiTheme": "vs",
+                "path": "./themes/light.json"
+            },
+            {
+                "label": "Linux Terminal Flat Light Natur",
+                "uiTheme": "vs",
+                "path": "./themes/light-natur.json"
+            }
+        ]
+    }
 }
