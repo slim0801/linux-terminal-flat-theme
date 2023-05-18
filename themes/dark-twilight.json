@@ -1,0 +1,173 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Linux Terminal Flat",
+    "variant": "linux.terminal.flat.dark-twilight",
+    "type": "dark",
+    "colors": {
+        "activityBar.activeBorder": "#00cecb",
+        "activityBar.activeFocusBorder": "#00cecb",
+        "badge.background": "#00cecb",
+        "activityBar.foreground": "#00cecb",
+        "activityBarBadge.background": "#00cecb",
+        "statusBar.debuggingBackground": "#00cecb",
+        "focusBorder": "#00cecb",
+
+        "activityBar.background": "#1a1c27",
+        "activityBarBadge.foreground": "#1a1c27",
+        "badge.foreground": "#1a1c27",
+        "breadcrumbPicker.background": "#1a1c27",
+        "button.background": "#1a1c27",
+        "debugToolBar.background": "#1a1c27",
+        "dropdown.background": "#1a1c27",
+        "dropdown.listBackground": "#1a1c27",
+        "editor.background": "#1a1c27",
+        "editorCursor.background": "#1a1c27",
+        "editorGroupHeader.tabsBackground": "#1a1c27",
+        "editorIndentGuide.activeBackground": "#1a1c27",
+        "editorIndentGuide.background": "#1a1c27",
+        "editorOverviewRuler.border": "#1a1c27",
+        "editorSuggestWidget.background": "#1a1c27",
+        "editorWidget.background": "#1a1c27",
+        "editorWidget.border": "#1a1c27",
+        "input.background": "#1a1c27",
+        "list.hoverBackground": "#1a1c27",
+        "list.inactiveFocusBackground": "#1a1c27",
+        "peekViewEditor.background": "#1a1c27",
+        "peekViewResult.background": "#1a1c27",
+        "peekViewResult.selectionBackground": "#1a1c27",
+        "peekViewTitle.background": "#1a1c27",
+        "sideBar.background": "#1a1c27",
+        "statusBar.background": "#1a1c27",
+        "statusBar.debuggingForeground": "#1a1c27",
+        "statusBar.noFolderBackground": "#1a1c27",
+        "statusBarItem.prominentBackground": "#1a1c27",
+        "tab.border": "#1a1c27",
+        "tab.inactiveBackground": "#1a1c27",
+        "titleBar.activeBackground": "#1a1c27",
+        "titleBar.inactiveBackground": "#1a1c27",
+        "walkThrough.embeddedEditorBackground": "#1a1c27",
+
+        "editor.lineHighlightBackground": "#12131c",
+        "editor.rangeHighlightBackground": "#12131c",
+        "editor.selectionBackground": "#12131c",
+        "list.activeSelectionBackground": "#12131c",
+        "list.inactiveSelectionBackground": "#12131c",
+        "tab.activeBackground": "#12131c",
+        "sideBarSectionHeader.background": "#12131c",
+        "sideBarSectionHeader.border": "#12131c",
+
+        "list.activeSelectionForeground": "#e9dbdb",
+        "list.inactiveSelectionForeground": "#e9dbdb",
+        "editorWidget.foreground": "#e9dbdb",
+        "sideBar.foreground": "#e9dbdb",
+        "statusBar.foreground": "#e9dbdb",
+
+        "editorLineNumber.foreground": "#33374d",
+        "editorSuggestWidget.selectedBackground": "#33374d",
+        "list.focusBackground": "#33374d",
+        "activityBar.inactiveForeground": "#33374d",
+
+        "scrollbar.shadow": "#00000000",
+        "widget.shadow": "#00000000",
+
+        "diffEditor.border": "#DADBDB09",
+        "diffEditor.insertedTextBackground": "#6BF17830",
+        "diffEditor.removedTextBackground": "#ff595e30"
+        //"editor.foreground": "#eeffff",
+        //"sideBarTitle.foreground": "#bbbbbb",
+    },
+    "tokenColors": [
+        {
+            "name": "COMMENTS",
+            "scope": ["comment", "punctuation.definition.comment", "meta.tag"],
+            "settings": {
+                "foreground": "#33374d"
+            }
+        },
+        {
+            "name": "CONSTANTS",
+            "scope": [
+                "keyword",
+                "storage",
+                "constant",
+                "support",
+                "entity.name",
+                "meta.property-value",
+                "punctuation.definition.entity",
+                "punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#7e6f94"
+            }
+        },
+        {
+            "name": "VARIABLES",
+            "scope": [
+                "variable",
+                "punctuation.definition.variable",
+                "support.other.namespace",
+                "support.class",
+                "support.type.property-name",
+                "meta.property-name",
+                "meta.instance.constructor",
+                "meta.object-literal.key",
+                "entity.other.inherited-class",
+                "entity.name.type.class",
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#7587a6"
+            }
+        },
+        {
+            "name": "VARIABLES 2",
+            "scope": ["variable.other.property", "meta.property.object"],
+            "settings": {
+                "foreground": "#7587a6"
+            }
+        },
+        {
+            "name": "PUNCTUATION",
+            "scope": ["keyword.operator", "punctuation", "meta.brace", "meta.group.braces", "text", "meta.jsx.children.js"],
+            "settings": {
+                "foreground": "#999e9f"
+            }
+        },
+        {
+            "name": "PUNCTUATION 2",
+            "scope": ["meta.separator", "invalid"],
+            "settings": {
+                "foreground": "#999e9f"
+            }
+        },
+        {
+            "name": "STRINGS",
+            "scope": ["keyword.other", "entity.name.tag.css", "string.quoted", "string.template", "punctuation.definition.string"],
+            "settings": {
+                "foreground": "#b0686f"
+            }
+        },
+        {
+            "name": "FUNCTIONS",
+            "scope": ["variable.function", "entity.name.function", "meta.function-call"],
+            "settings": {
+                "foreground": "#869c78"
+            }
+        },
+        {
+            "name": "BUILT-IN FUNCTIONS",
+            "scope": ["support.function", "keyword.operator.expression"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#869c78"
+            }
+        },
+        {
+            "name": "BUILT-IN FUNCTIONS 2",
+            "scope": ["entity.other.attribute-name"],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        }
+    ]
+}
